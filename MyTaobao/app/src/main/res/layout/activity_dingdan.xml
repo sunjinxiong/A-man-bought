@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sjx.bawei.com.mytaobao.activty.DingdanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/jiantouer"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:id="@+id/dingdna_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="孙劲雄"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:id="@+id/dindan_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15010783866"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/dingdan_xx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdas"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="30dp"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F4F4F4"
+        android:layout_marginTop="140dp"
+        >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:background="#fff"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="店铺"
+            android:layout_marginTop="14dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lis"
+        android:layout_marginTop="210dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合计："
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="220dp"
+            />
+        <TextView
+            android:id="@+id/heji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="71.00"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="130dp"
+            />
+
+        <Button
+            android:id="@+id/dingdan"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/jianbian"
+            android:textColor="#fff"
+            android:text="提交订单"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/delu_fan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/delu_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/delu_fan"
+        android:layout_alignRight="@+id/delu_button"
+        android:layout_alignEnd="@+id/delu_button" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/uik_nav_home_selected"
+        android:layout_marginTop="49dp"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/delu_help"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/delu_button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="登陆"
+        android:background="@drawable/shap"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/delu_zhuce"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="20sp"
+        android:textColor="#FF5D01"
+        android:background="@drawable/shap2"
+        android:layout_below="@+id/delu_button"
+        android:layout_alignLeft="@+id/delu_button"
+        android:layout_alignStart="@+id/delu_button"
+        android:layout_marginTop="33dp" />
+
+</RelativeLayout>
+

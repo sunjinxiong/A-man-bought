@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sjx.bawei.com.mytaobao">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".mytaobao.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activty.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activty.Main2Activity" />
+        <activity android:name=".activty.SousuActivity" />
+        <activity android:name=".activty.WebActivity" />
+        <activity android:name=".activty.ShopActivity" />
+        <activity android:name=".activty.DluActivity" />
+        <activity android:name=".activty.DengluActivity" />
+        <activity android:name=".activty.zhuceActivity" />
+        <activity android:name=".activty.ShezhiActivity" />
+        <activity android:name=".activty.ShopxqActivity" />
+        <activity android:name=".activty.Manage_addressActivity" />
+        <activity android:name=".activty.AddressActivity" />
+        <activity android:name=".activty.DingdanActivity" />
+        <activity android:name=".activty.PayDemoActivity"></activity>
+
+        <activity
+            android:name=".zfb.H5PayDemoActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+    </application>
+
+</manifest>

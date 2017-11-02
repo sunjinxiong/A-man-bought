@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/jianbian">
+
+            <ImageView
+                android:id="@+id/touxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/titlle_1" />
+
+            <TextView
+                android:id="@+id/nicheng"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/touxiang"
+                android:layout_marginLeft="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/touxiang"
+                android:layout_toRightOf="@+id/touxiang"
+                android:text="昵称"
+                android:layout_marginTop="-30dp"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+
+    <include
+        layout="@layout/includ1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F4F4F4"
+
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="93dp"
+        android:background="@drawable/ti"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F4F4F4"
+        />
+
+    <include
+        layout="@layout/include2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F4F4F4"
+        />
+    <include
+    layout="@layout/inclde3"
+        ></include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F4F4F4"
+        />
+    <include
+        layout="@layout/inclde4"
+        ></include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#F4F4F4"
+        />
+    <include
+        layout="@layout/incude5"
+        ></include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F4F4F4"
+        />
+    <include
+        layout="@layout/incude6"
+        ></include>
+</LinearLayout>
